@@ -10,14 +10,11 @@
    ```sh
    git clone https://github.com/Juan724r/otrpo_lab_2.git
 
-2. Соберите Docker-образ:
-   docker build -t juan724r/lab_2:latest .
-
-3. Перейдите в директорию проекта:
+2. Перейдите в директорию проекта:
    cd lab_2
 
-4. Соберите Docker-образ:
-   docker build -t your_dockerhub_username/your_image_name:latest .
+3. Соберите Docker-образ:
+   docker build -t juan724r/lab_2:latest .
 
 5. Запустите Docker-контейнер:
    docker run -v $(pwd):/lab_2 your_dockerhub_username/your_image_name:latest
